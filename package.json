@@ -1,0 +1,21 @@
+{
+  "name": "activism-network-map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --ext .ts",
+    "run": "npm run build && open webpage.html",
+    "build": "rimraf build && tsc"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "rimraf": "6.x",
+    "@types/google.maps": "3.55.x",
+    "dzuelu-eslint-config": "1.x",
+    "typescript": "5.4.x"
+  },
+  "author": "Dzuelu",
+  "license": "MIT"
+}

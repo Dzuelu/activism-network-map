@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "baseUrl": "./src",
+    "outDir": "out",
+    "emitDecoratorMetadata": true,
+    "types": ["google.maps"],
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "lib": ["ES2022", "DOM"],
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "strictNullChecks": true,
+    "removeComments": true,
+    "target": "ES2022"
+  },
+  "exclude": ["node_modules"]
+}

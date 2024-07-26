@@ -1,0 +1,17 @@
+# Ignore all files by default, but scan all directories
+*
+!*/
+
+# Don't ignore
+!.git*
+!*.html
+!*.js
+!*.json
+!*.md
+!*.sh
+!*.ts
+
+# Always ignore
+node_modules
+out/
+.env
